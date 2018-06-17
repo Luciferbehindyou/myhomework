@@ -1,0 +1,72 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+}
+header .name{
+	display: block;
+	margin-top: 50px;
+	font-size: 36px;
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
+}
+header,section, footer{
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+header img{
+	margin-top: 75px;
+}
+header p{
+	font-size: 14px;
+	color: #333333;
+	text-align: left;
+	margin-top: 25px;
+}
+hr{
+	width: 500px;
+	margin-top: 20px;
+}
+
+section ul, h4{
+	text-align: left;
+}
+section h4, footer h4{
+	margin-top: 20px;
+	font-size: 18px;
+	color: #333333;
+}
+section ul li{
+	margin-left: 30px;
+}
+section ul{
+	margin-top: 25px;
+	line-height: 20px;
+	color: #333333;
+	font-size: 14px;
+}
+.phone, .feedback{
+	text-align: left;
+	margin-left: 35px;
+	margin-top: 25px;
+	font-size: 14px;
+	color: #333333;
+}
+section a{
+	display: block;
+	text-align: left;
+	margin-left: 35px;
+	margin-top: 22px;
+	font-style: italic;
+}
+footer{
+	height: 200px;
+}
+ 
+
+
+
+
+#1f1f1f
