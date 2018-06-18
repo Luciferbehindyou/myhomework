@@ -1,0 +1,152 @@
+@font-face {
+    font-family: MyriadPro-Regular; 
+    src: url(fonts/MyriadPro-Regular.otf); 
+   }
+   @font-face {
+    font-family: Opensans; 
+    src: url(fonts/Opensans.ttf); 
+   }
+*{
+	padding: 0px;
+	margin:0px;
+	
+}
+body{
+	font-family: Opensans;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 0;
+	clear: both;
+}
+header, section, footer{
+	width: 965px;
+	margin: 0 auto;
+}
+header img{
+	
+	margin-top: 50px;
+}
+.main_menu {
+	width: 100%;
+	background: linear-gradient(#666666,#333333) ;
+	padding: 13px 0px 13px 0px;
+	margin-top: 40px;
+
+}
+
+.main_menu li{
+	display: inline-block;
+
+
+}
+
+
+.main_menu li a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 14.67px;
+	padding: 15px 47.5px 15px 47.5px;
+	
+}
+.main_menu .first-child a{
+	padding: 15px 70px 15px 25px;
+	
+	
+}
+.main_menu li a:hover{
+border-color: #999999;
+border-style: solid;
+border-width: 0px 1px 0px 1px;
+background: #333333;
+
+}
+.left_menu{
+	margin-top: 40px;
+	width: 240px;
+	float: left;
+	border: 1px solid #cccccc;
+}
+.left_menu li{
+	display: block;
+}
+.left_menu li a{
+text-decoration: none;
+color:#333333;
+font-size: 13.33px;
+padding: 12px 0px 12px 20px;
+display: inline-block;
+width: 92%;
+}
+.img_box{
+	width: 675px;
+    text-align: center;
+    height: 400px;
+    float: right;
+    margin-top: 40px;
+    border: 1px solid #cccccc;
+}
+
+.img_box img{
+	margin-top: 46.5px;
+}
+.left_menu li:not(:last-child) a{
+ border-bottom: 1px solid #cccccc;
+}
+.left_menu li a:hover p{
+	padding-left: 23px;
+}
+.left_menu li a:hover{
+	background: #fafafa;
+}
+.text{
+	
+	float: right;
+	width: 675px;
+	margin-top: 38px;
+	overflow: auto;
+}
+.text p {
+
+	padding: 0px 30px 0px 20px;
+	font-size: 13.33px;
+	color:#333333;
+}
+footer{
+	overflow: auto;
+}
+footer ul{
+	background: #e1e1e1;
+	width: 100%;
+	overflow: auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+footer ul li{
+	display: inline-block;
+	
+
+}
+footer ul li a{
+	text-decoration: none;
+	color: #2c2c2c;
+	font-size: 13.33px;
+}
+footer ul li:not(:first-child) {
+	padding: 15px 0 15px 100px;
+}
+footer ul li:first-child{
+	padding:15px 0 15px 25px;
+}
+footer ul li a:hover{
+	border-bottom: 2px solid #a3a3a3;
+}
+footer ul p{
+	float: right;
+	margin: 15px 25px;
+	font-size: 13.33px;
+	color:#333333;
+}
