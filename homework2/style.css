@@ -68,7 +68,7 @@ background: #333333;
 	margin-top: 40px;
 	width: 240px;
 	float: left;
-	border: 1px solid #cccccc;
+	
 }
 .left_menu li{
 	display: block;
@@ -77,7 +77,7 @@ background: #333333;
 text-decoration: none;
 color:#333333;
 font-size: 13.33px;
-padding: 12px 0px 12px 19px;
+padding: 12px 0px 12px 20px;
 display: inline-block;
 width: 92%;
 }
@@ -94,7 +94,14 @@ width: 92%;
 	margin-top: 46.5px;
 }
 .left_menu li:not(:last-child) a{
- border-bottom: 1px solid #cccccc;
+ border-color: #cccccc;
+border-style: solid;
+border-width: 1px 1px 0px 1px;
+}
+.left_menu li:last-child a{
+ border-color: #cccccc;
+border-style: solid;
+border-width: 1px 1px 1px 1px;
 }
 .left_menu li a:hover p{
 	padding-left: 23px;
