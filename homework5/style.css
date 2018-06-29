@@ -1,4 +1,9 @@
+@font-face {
+    font-family: HelveticaNeue; 
+    src: url(fonts/HelveticaNeue.ttf); 
+   }
 *{
+
 	padding: 0px;
 	margin: 0px;
 	
@@ -7,7 +12,7 @@
 body{
 background: url(img/background.png) no-repeat; 
 background-size: 100%;
-font-family: Tahoma;
+font-family: HelveticaNeue;
 }
 .wrapper{
 	
@@ -72,7 +77,7 @@ font-family: Tahoma;
     height: 35px;
     float: right;
     box-shadow: -1px 0px 0px 0px #4e67a9;
-  
+  font-family: HelveticaNeue;
     font-size: 14px;
     }
     .label-log-in p{
@@ -96,7 +101,7 @@ font-family: Tahoma;
 	background: #0f0e0e;
 	box-shadow: 0px 1px 0px 0px #484848;
 	outline:none;
-	font-family: Tahoma;
+	font-family: HelveticaNeue;
     }
     .inputs{
     	margin-top: 13px;
@@ -110,6 +115,7 @@ font-family: Tahoma;
     }
     .first-name::placeholder{
     	color: #fffbfb;
+        font-family: HelveticaNeue;
     	
     }
     .first-name:focus::placeholder{
@@ -155,6 +161,7 @@ font-family: Tahoma;
     	box-shadow: inset 0px 1px 1px 0px rgba(103, 198, 230, 0.7), 0px 0px 0px 1px #53a0db;
     	border-radius: 1px;
     	margin-top: 25px;
+        font-family: HelveticaNeue;
 	}
 	.agree-policy{
 		font-size: 11px;
@@ -233,12 +240,11 @@ font-family: Tahoma;
     	color: #fff;
     }
     .menu-float{
-    width: 755.8px;
+    width: 770.5px;
     float: right;
     margin-right: 20px;
     }
-
-
+    
 
 
 
